@@ -7,10 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		86A4580C198EB49800B670C3 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86A4580B198EB49800B670C3 /* TableViewController.m */; };
+		86A4580F198EB4D800B670C3 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 86A4580E198EB4D800B670C3 /* TableViewCell.m */; };
+		86A45812198EB85F00B670C3 /* Lights.m in Sources */ = {isa = PBXBuildFile; fileRef = 86A45811198EB85F00B670C3 /* Lights.m */; };
+		86A45817198EC4FF00B670C3 /* Light.m in Sources */ = {isa = PBXBuildFile; fileRef = 86A45816198EC4FF00B670C3 /* Light.m */; };
+		86A4581D198EDEF200B670C3 /* HueController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86A4581C198EDEF200B670C3 /* HueController.m */; };
 		86F4D25F198D8F4E007E7012 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 86F4D25E198D8F4E007E7012 /* main.m */; };
 		86F4D262198D8F4E007E7012 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 86F4D261198D8F4E007E7012 /* AppDelegate.m */; };
 		86F4D265198D8F4E007E7012 /* OBJCHue.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 86F4D263198D8F4E007E7012 /* OBJCHue.xcdatamodeld */; };
-		86F4D268198D8F4E007E7012 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86F4D267198D8F4E007E7012 /* ViewController.m */; };
 		86F4D26B198D8F4E007E7012 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86F4D269198D8F4E007E7012 /* Main.storyboard */; };
 		86F4D26D198D8F4E007E7012 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86F4D26C198D8F4E007E7012 /* Images.xcassets */; };
 		86F4D279198D8F4E007E7012 /* OBJCHueTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 86F4D278198D8F4E007E7012 /* OBJCHueTests.m */; };
@@ -27,14 +31,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		86A4580A198EB49800B670C3 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		86A4580B198EB49800B670C3 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		86A4580D198EB4D800B670C3 /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		86A4580E198EB4D800B670C3 /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
+		86A45810198EB85F00B670C3 /* Lights.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lights.h; sourceTree = "<group>"; };
+		86A45811198EB85F00B670C3 /* Lights.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Lights.m; sourceTree = "<group>"; };
+		86A45815198EC4FF00B670C3 /* Light.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Light.h; sourceTree = "<group>"; };
+		86A45816198EC4FF00B670C3 /* Light.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Light.m; sourceTree = "<group>"; };
+		86A4581B198EDEF200B670C3 /* HueController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HueController.h; path = ../HueController.h; sourceTree = "<group>"; };
+		86A4581C198EDEF200B670C3 /* HueController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HueController.m; path = ../HueController.m; sourceTree = "<group>"; };
 		86F4D259198D8F4E007E7012 /* OBJCHue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OBJCHue.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		86F4D25D198D8F4E007E7012 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		86F4D25E198D8F4E007E7012 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		86F4D260198D8F4E007E7012 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		86F4D261198D8F4E007E7012 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		86F4D264198D8F4E007E7012 /* OBJCHue.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = OBJCHue.xcdatamodel; sourceTree = "<group>"; };
-		86F4D266198D8F4E007E7012 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		86F4D267198D8F4E007E7012 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		86F4D26A198D8F4E007E7012 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		86F4D26C198D8F4E007E7012 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		86F4D272198D8F4E007E7012 /* OBJCHueTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OBJCHueTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -83,12 +95,20 @@
 			children = (
 				86F4D260198D8F4E007E7012 /* AppDelegate.h */,
 				86F4D261198D8F4E007E7012 /* AppDelegate.m */,
-				86F4D266198D8F4E007E7012 /* ViewController.h */,
-				86F4D267198D8F4E007E7012 /* ViewController.m */,
 				86F4D269198D8F4E007E7012 /* Main.storyboard */,
 				86F4D26C198D8F4E007E7012 /* Images.xcassets */,
 				86F4D263198D8F4E007E7012 /* OBJCHue.xcdatamodeld */,
 				86F4D25C198D8F4E007E7012 /* Supporting Files */,
+				86A4580A198EB49800B670C3 /* TableViewController.h */,
+				86A4580B198EB49800B670C3 /* TableViewController.m */,
+				86A4580D198EB4D800B670C3 /* TableViewCell.h */,
+				86A4580E198EB4D800B670C3 /* TableViewCell.m */,
+				86A45810198EB85F00B670C3 /* Lights.h */,
+				86A45811198EB85F00B670C3 /* Lights.m */,
+				86A45815198EC4FF00B670C3 /* Light.h */,
+				86A45816198EC4FF00B670C3 /* Light.m */,
+				86A4581B198EDEF200B670C3 /* HueController.h */,
+				86A4581C198EDEF200B670C3 /* HueController.m */,
 			);
 			path = OBJCHue;
 			sourceTree = "<group>";
@@ -219,8 +239,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				86F4D265198D8F4E007E7012 /* OBJCHue.xcdatamodeld in Sources */,
+				86A4580F198EB4D800B670C3 /* TableViewCell.m in Sources */,
+				86A45817198EC4FF00B670C3 /* Light.m in Sources */,
 				86F4D262198D8F4E007E7012 /* AppDelegate.m in Sources */,
-				86F4D268198D8F4E007E7012 /* ViewController.m in Sources */,
+				86A4581D198EDEF200B670C3 /* HueController.m in Sources */,
+				86A4580C198EB49800B670C3 /* TableViewController.m in Sources */,
+				86A45812198EB85F00B670C3 /* Lights.m in Sources */,
 				86F4D25F198D8F4E007E7012 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -289,7 +313,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -324,7 +348,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -336,6 +360,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/andrewcavanagh/Downloads/PhilipsHue-PhilipsHueSDK-iOS-OSX-7c9f254",
+				);
 				INFOPLIST_FILE = OBJCHue/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -347,6 +375,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/andrewcavanagh/Downloads/PhilipsHue-PhilipsHueSDK-iOS-OSX-7c9f254",
+				);
 				INFOPLIST_FILE = OBJCHue/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -406,6 +438,7 @@
 				86F4D27E198D8F4E007E7012 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		86F4D27F198D8F4E007E7012 /* Build configuration list for PBXNativeTarget "OBJCHueTests" */ = {
 			isa = XCConfigurationList;
@@ -414,6 +447,7 @@
 				86F4D281198D8F4E007E7012 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
